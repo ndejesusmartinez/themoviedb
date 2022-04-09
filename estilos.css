@@ -1,0 +1,49 @@
+.titulo{
+  text-align: center;
+  margin-top: 1rem;
+}
+.col-md-2{
+  margin-top: 1rem;
+  text-align: center;
+}
+.botones{
+  position: fixed;
+	bottom: 0;
+	background: #100a1f;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	padding: 10px;
+}
+.resultado{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows: 1fr auto;
+  grid-gap: 1rem;
+}
+.resultss h3{
+  text-align:center;
+}
+
+@media screen and (max-width: 858px){
+  .resultado{
+    display: block;
+  }
+}
+.title{
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.non h3 img{
+  text-align: center;
+  justify-content: center;
+}
+.non{
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+.resultss{
+  padding-bottom: 4rem;
+}
